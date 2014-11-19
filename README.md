@@ -5,9 +5,9 @@ Vantiv-Developer-Portal and Vantiv-Payment-Web-Services
 Integration Guidelines available here: https://apideveloper.vantiv.com/docs/payment-web-services/implementation-guidelines<br>
 Online developers guide: https://apideveloper.vantiv.com/documentation<br>
 
-GETTING STARTED
+<b>GETTING STARTED<b><br>
 Run test.php to start the php script. It will send soap requests directly to 
-PWS and if the sendToApigee flag is true, it will send JSON requests to apigee.
+PWS and if the sendToApigee flag is true, it will send JSON requests to Apigee.
 The requests that are described here are Authorize, Capture, Purchase, and Cancel.
 Too see the raw soap requests/response, you can set $debugFlag to true in test.php
 and to see the raw JSON requests/response, you can set $debugFlag to true in 
