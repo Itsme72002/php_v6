@@ -11,7 +11,7 @@ class Address implements \JsonSerializable{
     private $BillingAddressLine1 = '100';
     private $BillingCity = 'Cincinnati';
     private $BillingState = 'OH';
-    private $BillingZipCode = '33606';
+    private $BillingZipcode = '33606';
     private $CountryCode = 'US';
 
     public function JsonSerialize()
